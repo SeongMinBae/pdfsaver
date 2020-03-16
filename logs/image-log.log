@@ -1,0 +1,10 @@
+2020-03-10 16:13:05 info: POST method try
+2020-03-10 16:13:05 info: Exception
+2020-03-10 16:13:05 error: uncaughtException: The "chunk" argument must be one of type string or Buffer. Received type object
+TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer. Received type object
+    at ServerResponse.end (_http_outgoing.js:705:13)
+    at addNewPaint (C:\Users\bsm91\Downloads\readserver (2)\readserver\main.js:116:11)
+    at Server.<anonymous> (C:\Users\bsm91\Downloads\readserver (2)\readserver\main.js:39:7)
+    at Server.emit (events.js:223:5)
+    at parserOnIncoming (_http_server.js:748:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:115:17)

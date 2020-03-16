@@ -1,0 +1,19 @@
+{
+  "name": "readserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "formidable": "^1.2.2",
+    "https": "^1.0.0",
+    "moment": "^2.24.0",
+    "net": "^1.0.2",
+    "winston": "^3.2.1"
+  }
+}
